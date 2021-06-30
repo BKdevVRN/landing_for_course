@@ -1,0 +1,163 @@
+body {
+    font-size: 1.1rem;
+}
+/* Header */
+header {
+    background-color: #6500ff;
+    background-image: url("../images/header-bg.png");
+    background-position: center top;
+}
+header > .container > .row:last-child {
+    padding-top: 210px;
+    padding-bottom: 270px;
+    background-image: url("../images/header-image.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+header > .container > .row:last-child h1 {
+    font-size: 60pt;
+}
+header nav .nav-link {
+    color: #fff;
+}
+header nav .nav-link:hover {
+    color: rgba(255, 255, 255, .5);
+}
+header .btn-danger {
+    background-color: #ff5f60;
+    border-color: #ff5f60;
+}
+/* Admission */
+.admission .card {
+    margin-top: -92px;
+    border: 0;
+    background-color: #ff5f60;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 -11px 0 0 #183251;
+    -moz-box-shadow:    0 -11px 0 0 #183251;
+    box-shadow:         0 -11px 0 0 #183251;
+}
+.admission .card h2 {
+    font-size: 30pt;
+}
+.admission .card hr {
+    color: #fff;
+    opacity: 1;
+}
+.admission .card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20pt;
+}
+.admission .card .input-group {
+    max-width: 70%;
+}
+.admission .card .input-group input, .admission .card .input-group button {
+    border-radius: 1.25rem;
+    border: 0;
+    height: 45px;
+}
+.admission .card .input-group button {
+    width: 60px;
+    background-color: #1f3148;
+}
+
+.admission #opinions .carousel-indicators [data-bs-target] {
+    background-color: #fb8122 !important;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+}
+.admission #opinions .opinion {
+    font-size: 1.3rem;
+    color: #222;
+}
+.admission #opinions .author {
+    color: #fb8122;
+}
+/* Welcome */
+.welcome {
+    margin-top: 170px;
+}
+.welcome h2 {
+    font-size: 30pt;
+}
+.welcome p {
+    color: #8c8c8c
+}
+.welcome .btn-danger {
+    background-color: #ff5f60;
+    border-color: #ff5f60;
+}
+/* About */
+.about {
+    margin-top: 170px;
+}
+.about h2 {
+    font-size: 30pt;
+}
+.about p {
+    color: #8c8c8c
+}
+.about .btn-danger {
+    background-color: #ff5f60;
+    border-color: #ff5f60;
+}
+/* Advantages */
+.advantages {
+    margin-top: 200px;
+}
+.advantages .icon {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+}
+.advantages .icon {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages .icon.icon-global {
+    background-image: url("../images/icons/global.png");
+    background-color: #4bd2ff;
+    -webkit-box-shadow: 0 10px 62px 0 #4bd2ff;
+    -moz-box-shadow:    0 10px 62px 0 #4bd2ff;
+    box-shadow:         0 10px 62px 0 #4bd2ff;
+}
+.advantages .icon.icon-success {
+    background-image: url("../images/icons/success.png");
+    background-color: #694bff;
+    -webkit-box-shadow: 0 10px 62px 0 #694bff;
+    -moz-box-shadow:    0 10px 62px 0 #694bff;
+    box-shadow:         0 10px 62px 0 #694bff;
+}
+.advantages .icon.icon-education {
+    background-image: url("../images/icons/education.png");
+    background-color: #ffb14b;
+    -webkit-box-shadow: 0 10px 62px 0 #ffb14b;
+    -moz-box-shadow:    0 10px 62px 0 #ffb14b;
+    box-shadow:         0 10px 62px 0 #ffb14b;
+}
+.advantages h3 {
+    font-size: 1.3rem;
+}
+.advantages p {
+    color: #8c8c8c;
+}
+/* Footer */
+footer {
+    margin-top: 120px;
+}
+footer .container {
+    border-top: 1px solid #f3f0ff;
+}
+footer .container .row {
+    height: 118px;
+}
+footer p {
+    color: #c9c9c9;
+}
+footer .nav-link {
+    color: #c9c9c9;
+}
+footer .nav-link:hover {
+    color: #8c8c8c;
+}
