@@ -1,0 +1,1 @@
+Данная страница сверстана для курса https://bk-dev.ru/courses/Osnovy-HTML-i-CSS
